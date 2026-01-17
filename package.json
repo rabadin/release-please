@@ -9,7 +9,6 @@
     "docs": "echo add docs tests",
     "test:snap": "cross-env SNAPSHOT_UPDATE=1 LC_ALL=en npm test",
     "clean": "gts clean",
-    "prepare": "npm run compile",
     "lint": "gts check",
     "compile": "tsc -p .",
     "fix": "gts fix",
